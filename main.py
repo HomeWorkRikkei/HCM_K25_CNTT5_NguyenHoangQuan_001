@@ -103,7 +103,7 @@ class PlayerManager:
             case 'n':
                 print("Đã hủy thao tác!")
             case _:
-                print("Nhập kí tự khác → thông báo nhập chưa đúng!")
+                print("Nhập chưa đúng!")
 
     def search_player(self):
         if not self.players:
