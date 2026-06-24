@@ -27,7 +27,7 @@ class Player:
 
 class PlayerManager:
     def __init__(self):
-        self.players = []
+        self.players = [Player(101,"Nguyen Hoang Quan",9,7,10),Player(102,"Hoang Minh Quan",6,7,8)]
 
     def check_id(self, player_id):
         return any(p.id == player_id for p in self.players)
