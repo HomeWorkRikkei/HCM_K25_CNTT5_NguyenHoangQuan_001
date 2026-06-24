@@ -130,8 +130,8 @@ class PlayerManager:
     def print_players(self, player_list):
         print(f"{'Mã cầu thủ':<10} | {'Họ tên':<20} | {'Tốc độ':<7} | {'Kỹ thuật':<8} | {'Ghi bàn':<8} | {'ĐTB':<6} | {'Phân loại':<12}")
         print("-" * 85)
-        for p in player_list:
-            print(f"{p.id:<10} | {p.name:<20} | {p.speed_score:<7} | {p.technique_score:<8} | {p.goal_score:<8} | {p.average_score:<6} | {p.performance_type:<12}")
+        for player in player_list:
+            print(f"{player.id:<10} | {player.name:<20} | {player.speed_score:<7} | {player.technique_score:<8} | {player.goal_score:<8} | {player.average_score:<6} | {player.performance_type:<12}")
 
 
 def main():
